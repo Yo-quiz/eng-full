@@ -1138,13 +1138,6 @@ function showCongratsImage() {
     }, 50);
 }
 
-    // Ocultar la imagen al hacer clic
-    congratsImg.addEventListener("click", () => {
-        congratsImg.remove();
-    });
-
-    document.body.appendChild(congratsImg);
-}
 
 // Temporizador
 let startTime;
